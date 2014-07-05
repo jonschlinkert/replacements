@@ -8,10 +8,27 @@
 'use strict';
 
 module.exports = function replacements(str, arr) {
+  var transformers = [];
+
   // normalize to an array
   arr = !Array.isArray(arr) ? [arr] : arr;
+  arr.forEach(function(pair) {
+    if (!pair.hasOwnProperty('pattern')
+      && !pair.hasOwnProperty('replacement')) {
+      var keys = Object.keys(pair);
+      keys.forEach(function (key) {
+        var value = pair[key];
+        transformers.push({
+          pattern: key,
+          replacement: value
+        });
+      });
+    } else {
+      transformers.push(pair);
+    }
+  });
 
-  return arr.reduce(function(acc, obj) {
+  return transformers.reduce(function(acc, obj) {
     return acc.replace(obj.pattern, obj.replacement);
-  }, str);
+  }.bind(this), str);
 };

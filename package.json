@@ -1,7 +1,7 @@
 {
   "name": "replacements",
   "description": "Run multiple regex or string find-and-replace transformations on a string in sequence, reducing the final string to the accumulated result of all transformations.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/replacements",
   "author": {
     "name": "Jon Schlinkert",
