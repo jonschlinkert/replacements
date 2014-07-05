@@ -1,6 +1,6 @@
 # replacements [![NPM version](https://badge.fury.io/js/replacements.png)](http://badge.fury.io/js/replacements)
 
-> Run multiple regex or string find-and-replace transformations on a string in sequence, reducing the final string to the accumulated result of each transformation.
+> Run multiple regex or string find-and-replace transformations on a string in sequence, reducing the final string to the accumulated result of all transformations.
 
 ## Install
 #### [npm](npmjs.org)
