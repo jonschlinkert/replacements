@@ -30,5 +30,5 @@ module.exports = function replacements(str, arr) {
 
   return transformers.reduce(function(acc, obj) {
     return acc.replace(obj.pattern, obj.replacement);
-  }.bind(this), str);
+  }, str);
 };
