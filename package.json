@@ -3,21 +3,12 @@
   "description": "Transform a string with an array of replacement patterns.",
   "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/replacements",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/replacements.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/replacements",
   "bugs": {
     "url": "https://github.com/jonschlinkert/replacements/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/replacements/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "files": [
     "index.js"
   ],
@@ -30,20 +21,25 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "^5.2.0"
+    "should": "*"
   },
   "keywords": [
-    "regex",
-    "regular expression",
     "escape",
     "expression",
     "match",
     "modify",
     "pattern",
+    "regex",
+    "regular expression",
     "replace",
     "replacement",
     "search",
     "structure",
     "substitute"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": []
+    }
+  }
 }
