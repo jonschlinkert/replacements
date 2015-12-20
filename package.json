@@ -38,8 +38,14 @@
     "substitute"
   ],
   "verb": {
+    "layout": "default",
     "related": {
-      "list": []
-    }
+      "list": [
+        "easy-renamer"
+      ]
+    },
+    "plugins": [
+      "gulp-format-md"
+    ]
   }
 }
