@@ -13,9 +13,9 @@
   },
   "license": "MIT",
   "files": [
-    "dist/index.js"
+    "dist/index.mjs"
   ],
-  "main": "dist/index.js",
+  "main": "dist/index.mjs",
   "engines": {
     "node": ">=16.15.0"
   },
