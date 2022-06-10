@@ -1,7 +1,0 @@
-sudo: false
-language: node_js
-node_js:
-  - "stable"
-  - "16"
-matrix:
-  fast_finish: true
