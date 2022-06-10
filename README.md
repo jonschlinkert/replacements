@@ -1,4 +1,4 @@
-# replacements [![NPM version](https://img.shields.io/npm/v/replacements.svg)](https://www.npmjs.com/package/replacements) [![Build Status](https://img.shields.io/travis/jonschlinkert/replacements.svg)](https://travis-ci.org/jonschlinkert/replacements)
+# replacements [![NPM version](https://img.shields.io/npm/v/replacements.svg)](https://www.npmjs.com/package/replacements) [![Build Status](https://github.com/jonschlinkert/replacements/actions/workflows/test.yml/badge.svg)](https://github.com/jonschlinkert/replacements/actions/workflows/test.yml)
 
 > Transform a string with an array of replacement patterns.
 
